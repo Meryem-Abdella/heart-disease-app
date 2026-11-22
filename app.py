@@ -16,8 +16,7 @@ threshold = bundle["threshold"]
 
 st.title("Heart Disease Risk Screening")
 st.caption(
-    "Educational project trained on the UCI Heart Disease (Cleveland) data. "
-    "This is not a medical diagnosis tool."
+    "Project predict whether a patient has heart disease trained on the UCI Heart Disease (Cleveland) data. "
 )
 
 col1, col2 = st.columns(2)
@@ -90,5 +89,4 @@ if st.button("Predict", type="primary"):
 
     st.caption(
         "The cutoff is set low on purpose to catch as many true cases as possible, "
-        "so some healthy people will be flagged."
     )
